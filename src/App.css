@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.post-table th,
+.post-table td {
+  border: 1px solid #0aed5a;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.post-table th {
+  background-color: #0acbcb;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pagination li.active a {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
